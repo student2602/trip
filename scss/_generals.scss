@@ -5,9 +5,12 @@
   margin: 0;
   padding: 0;
 }
+ul,ol{
+  list-style: none;
+}
 
 body {
-  font-family: "Arial", sans-serif;
+  font-family:"Inter";
   
 }
 
@@ -17,6 +20,7 @@ img {
 
 a {
   text-decoration: none;
+  color: black;
 }
 h1,h2,h3,h4{
   margin: 0;
