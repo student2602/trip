@@ -71,3 +71,27 @@
 .icon {
   margin-right: 5px;
 }
+
+@media only screen and (max-width:$tablet) {
+  .header {
+  padding: 20px 0;
+  width: 100%;
+  &_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+  }
+  
+@media only screen and (max-width:$mobile) {
+  .header {
+  padding: 20px 0;
+  width: 100%;
+  &_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+  }

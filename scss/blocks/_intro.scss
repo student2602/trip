@@ -51,14 +51,7 @@
 .price-btn:hover {
   background-color: #7c3aed;
 }
-input.date-input {
-  background-image: url('../../img/calendar.png'); 
-  background-repeat: no-repeat;
-  background-position: 12px center; 
-  background-size: 18px 18px;      
-  padding-left: 40px;               
-}
-@media ($tablet) {
+@media only screen and (max-width:$tablet){
   .search-box {
     flex-direction: column; 
     border: none;
@@ -74,7 +67,7 @@ input.date-input {
   }
 }
 
-@media ($mobile) {
+@media only screen and (max-width:$mobile) {
   .search-box {
     flex-direction: column; 
     border: none;

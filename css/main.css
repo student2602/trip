@@ -143,6 +143,28 @@ h1, h2, h3, h4 {
   margin-right: 5px;
 }
 
+@media only screen and (max-width: 768px) {
+  .header {
+    padding: 20px 0;
+    width: 100%;
+  }
+  .header_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .header {
+    padding: 20px 0;
+    width: 100%;
+  }
+  .header_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
 .intro {
   text-align: center;
   margin-top: 100px;
@@ -197,15 +219,7 @@ h1, h2, h3, h4 {
   background-color: #7c3aed;
 }
 
-input.date-input {
-  background-image: url("../../img/calendar.png");
-  background-repeat: no-repeat;
-  background-position: 12px center;
-  background-size: 18px 18px;
-  padding-left: 40px;
-}
-
-@media (1140px) {
+@media only screen and (max-width: 768px) {
   .search-box {
     flex-direction: column;
     border: none;
@@ -220,7 +234,7 @@ input.date-input {
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
   }
 }
-@media (700px) {
+@media only screen and (max-width: 425px) {
   .search-box {
     flex-direction: column;
     border: none;
